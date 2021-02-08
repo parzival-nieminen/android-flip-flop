@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Flip Flop Store</string>
+    <string name="create">create</string>
+    <string name="login">login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="email_hint">your email</string>
+    <string name="password_hint">your password</string>
+    <string name="welcome_title">Hello customer</string>
+    <string name="shoe_app_description">flip flop Logo</string>
+    <string name="welcome_subtext">Manage your beloved flip flop collection and find and buy new flip flops. Perfect gift for your families and friends.</string>
+    <string name="welcome_label">Welcome</string>
+    <string name="instruction_label">Instruction</string>
+    <string name="shoelist_label">Overview</string>
+    <string name="shoedetail_label">add flip flop</string>
+    <string name="login_label">Login</string>
+    <string name="next_button">next</string>
+</resources>
