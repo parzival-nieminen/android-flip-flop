@@ -15,4 +15,13 @@
     <string name="shoedetail_label">add flip flop</string>
     <string name="login_label">Login</string>
     <string name="next_button">next</string>
+    <string name="edit_cancel">cancel</string>
+    <string name="edit_save">save</string>
+    <string name="edit_name_label">name</string>
+    <string name="edit_company_label">company</string>
+    <string name="edit_shoe_size_label">size</string>
+    <string name="edit_description_label">description</string>
+    <string name="edit_title_label">Add new Flip Flop</string>
+    <string name="shoe_list_submit">submit</string>
+    <string name="shoe_list_title_label">Shoe collection</string>
 </resources>
