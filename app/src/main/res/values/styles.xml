@@ -16,16 +16,21 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <style name="margin_16_center_text">
-        <item name="android:layout_gravity">center_horizontal</item>
+    <style name="title_label">
+        <item name="android:layout_marginStart">16dp</item>
         <item name="android:layout_marginTop">16dp</item>
-        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
         <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">24sp</item>
     </style>
 
-    <style name="marginBottom16_gravityCenter">
-        <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:layout_marginBottom">16dp</item>
+    <style name="content_label">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
 </resources>

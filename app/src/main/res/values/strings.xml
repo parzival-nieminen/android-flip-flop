@@ -24,4 +24,5 @@
     <string name="edit_title_label">Add new Flip Flop</string>
     <string name="shoe_list_submit">submit</string>
     <string name="shoe_list_title_label">Shoe collection</string>
+    <string name="login_title_label">Login</string>
 </resources>
