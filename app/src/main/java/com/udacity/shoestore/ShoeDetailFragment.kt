@@ -29,7 +29,7 @@ class ShoeDetailFragment : Fragment() {
         fragmentShoeDetailBinding.shoe = Shoe("",0.0, "", "")
 
         fragmentShoeDetailBinding.cancelButton.setOnClickListener(
-            Navigation.createNavigateOnClickListener(ShoeListFragmentDirections.actionShoeListFragmentToShoeDetailFragment())
+            Navigation.createNavigateOnClickListener(ShoeDetailFragmentDirections.actionShoeDetailFragmentToShoeListFragment())
         )
         fragmentShoeDetailBinding.saveButton.setOnClickListener{
             viewModel.addShoe(fragmentShoeDetailBinding.shoe as Shoe)
