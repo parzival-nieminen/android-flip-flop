@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Timber.i("Timber is running...")
 
         activityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         appBarConfiguration = AppBarConfiguration(setOf(R.id.loginFragment))
@@ -26,8 +27,6 @@ class MainActivity : AppCompatActivity() {
 
         navController = this.findNavController(R.id.nav_host_Fragment)
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration)
-
-        Timber.plant(Timber.DebugTree())
     }
 
     override fun onSupportNavigateUp(): Boolean {
