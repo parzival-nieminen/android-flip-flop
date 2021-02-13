@@ -6,13 +6,13 @@
     <string name="password">password</string>
     <string name="email_hint">your email</string>
     <string name="password_hint">your password</string>
-    <string name="welcome_title">Hello customer</string>
+    <string name="welcome_title">Hey!</string>
     <string name="shoe_app_description">flip flop Logo</string>
     <string name="welcome_subtext">Manage your beloved flip flop collection and find and buy new flip flops. Perfect gift for your families and friends.</string>
     <string name="welcome_label">Welcome</string>
     <string name="instruction_label">Instruction</string>
-    <string name="shoelist_label">Overview</string>
-    <string name="shoedetail_label">add flip flop</string>
+    <string name="shoe_list_label">Overview</string>
+    <string name="shoe_detail_label">add flip flop</string>
     <string name="login_label">Login</string>
     <string name="next_button">next</string>
     <string name="edit_cancel">cancel</string>
@@ -23,6 +23,10 @@
     <string name="edit_description_label">description</string>
     <string name="edit_title_label">Add new Flip Flop</string>
     <string name="shoe_list_submit">submit</string>
-    <string name="shoe_list_title_label">Shoe collection</string>
     <string name="login_title_label">Login</string>
+    <string name="shoe_list_info">Add new Shoes with the \"+\" button</string>
+    <string name="empty_hint"></string>
+    <string name="instruction_image_description">Use the add button to create a new flip flop</string>
+    <string name="welcome_sub_text">Use the red add button to create a new flip flop shoe</string>
+    <string name="welcome_content_text">In the add dialog set shoe name, company, size and description.</string>
 </resources>

@@ -36,7 +36,7 @@
     <fragment
         android:id="@+id/shoeListFragment"
         android:name="com.udacity.shoestore.ShoeListFragment"
-        android:label="@string/shoelist_label"
+        android:label="@string/shoe_list_label"
         tools:layout="@layout/fragment_shoe_list">
         <action
             android:id="@+id/action_shoeListFragment_to_shoeDetailFragment"
@@ -45,10 +45,12 @@
     <fragment
         android:id="@+id/shoeDetailFragment"
         android:name="com.udacity.shoestore.ShoeDetailFragment"
-        android:label="@string/shoedetail_label"
+        android:label="@string/shoe_detail_label"
         tools:layout="@layout/fragment_shoe_detail" >
         <action
             android:id="@+id/action_shoeDetailFragment_to_shoeListFragment"
-            app:destination="@id/shoeListFragment" />
+            app:destination="@id/shoeListFragment"
+            app:popUpTo="@id/shoeListFragment"
+            app:popUpToInclusive="true" />
     </fragment>
 </navigation>

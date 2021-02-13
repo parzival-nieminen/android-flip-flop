@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.Navigation
 import com.udacity.shoestore.databinding.FragmentShoeListBinding
+import com.udacity.shoestore.databinding.ShoeItemBinding
 import timber.log.Timber
 
 /**
@@ -28,7 +29,17 @@ class ShoeListFragment : Fragment() {
 
         viewModel.shoeList.observe(this.viewLifecycleOwner, { list ->
             Timber.i("Change in shoeList")
-            fragmentShoeListBinding.emptyListText.text = list.toString()
+
+            list.forEach { shoeItem ->
+                val shoeItemBinding: ShoeItemBinding =
+                    DataBindingUtil.inflate(inflater, R.layout.shoe_item, container, false)
+                shoeItemBinding.shoe = shoeItem
+                fragmentShoeListBinding.shoeList.addView(shoeItemBinding.root)
+            }
+
+            if (viewModel.isListEmpty.value == false) {
+                fragmentShoeListBinding.emptyListText.visibility = View.GONE
+            }
         })
 
         fragmentShoeListBinding.showListAddButton.setOnClickListener(
