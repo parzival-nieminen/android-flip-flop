@@ -6,7 +6,7 @@
     <string name="password">password</string>
     <string name="email_hint">your email</string>
     <string name="password_hint">your password</string>
-    <string name="welcome_title">Hello customer</string>
+    <string name="welcome_title">Hey!</string>
     <string name="shoe_app_description">flip flop Logo</string>
     <string name="welcome_subtext">Manage your beloved flip flop collection and find and buy new flip flops. Perfect gift for your families and friends.</string>
     <string name="welcome_label">Welcome</string>
@@ -25,4 +25,5 @@
     <string name="shoe_list_submit">submit</string>
     <string name="login_title_label">Login</string>
     <string name="shoe_list_info">Add new Shoes with the \"+\" button</string>
+    <string name="empty_hint"></string>
 </resources>

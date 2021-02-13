@@ -25,8 +25,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp"
-                android:autofillHints=""
+                android:autofillHints="@string/empty_hint"
                 android:ems="10"
+                android:hint="@string/empty_hint"
                 android:inputType="textPersonName"
                 android:text="@={shoe.name}"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -54,7 +55,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
+                android:autofillHints="@string/empty_hint"
                 android:ems="10"
+                android:hint="@string/empty_hint"
                 android:inputType="textPersonName"
                 android:text="@={shoe.company}"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -92,7 +95,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
+                android:autofillHints="@string/empty_hint"
                 android:ems="10"
+                android:hint="@string/empty_hint"
                 android:inputType="numberDecimal"
                 android:text="@={`` + shoe.size}"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -106,8 +111,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
+                android:autofillHints="@string/empty_hint"
                 android:ems="10"
                 android:gravity="start|top"
+                android:hint="@string/empty_hint"
                 android:inputType="textMultiLine"
                 android:text="@={shoe.description}"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -161,20 +168,6 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="1.0" />
 
-            <TextView
-                android:id="@+id/edit_title_label"
-                style="@style/title_label"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="16dp"
-                android:text="@string/edit_title_label"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 </layout>
