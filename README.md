@@ -1,6 +1,6 @@
 # The Shoe Store
 
-![Android CI](https://github.com/parzival-nieminen/android-flip-flop/workflows/Android%20CI/badge.svg)
+[![Android CI](https://github.com/parzival-nieminen/android-flip-flop/workflows/Android%20CI/badge.svg)](https://github.com/parzival-nieminen/android-flip-flop/actions)
 
 [CI Actions](https://github.com/parzival-nieminen/android-flip-flop/actions)
 
