@@ -29,4 +29,7 @@
     <string name="instruction_image_description">Use the add button to create a new flip flop</string>
     <string name="welcome_sub_text">Use the red add button to create a new flip flop shoe</string>
     <string name="welcome_content_text">In the add dialog set shoe name, company, size and description.</string>
+    <string name="shoe_menu_logout">logout</string>
+    <string name="shoe_menu_reset">reset</string>
+    <string name="shoe_menu_about">about</string>
 </resources>
