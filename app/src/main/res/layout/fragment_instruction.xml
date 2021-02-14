@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".InstructionFragment">
+
+    <!--This layout would also work well with a LinearLayout, since it uses few elements.
+    I use ContrainLayout here, because it is easier to position the navigation button at the bottom right.
+    ConstraintLayout makes it easy to layout items responsively. -->
 
     <ScrollView
         android:layout_width="match_parent"
