@@ -9,12 +9,12 @@ import timber.log.Timber
 class ShoeListViewModel : ViewModel() {
 
     private val _shoeList = MutableLiveData<MutableList<Shoe>>()
-    private val _isListEmpyt = MutableLiveData<Boolean>()
+    private val _isListEmpty = MutableLiveData<Boolean>()
 
     init {
         Timber.i("init ShoeList ViewModel")
         _shoeList.value = mutableListOf()
-        _isListEmpyt.value = true
+        _isListEmpty.value = true
 
     }
 
@@ -22,11 +22,11 @@ class ShoeListViewModel : ViewModel() {
         get() = _shoeList
 
     val isListEmpty: LiveData<Boolean>
-        get() = _isListEmpyt
+        get() = _isListEmpty
 
     fun addShoe(shoe: Shoe) {
         _shoeList.value?.add(shoe)
-        _isListEmpyt.value = false
+        _isListEmpty.value = false
         Timber.i("new Shoe is added, list size is: " + _shoeList.value?.size)
     }
 }
